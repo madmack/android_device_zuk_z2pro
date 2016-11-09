@@ -158,10 +158,6 @@ on boot
     chown system system /sys/module/dwc3/parameters/usb30_disabled
     chmod 0660 /sys/module/dwc3/parameters/usb30_disabled
 
-    # Vibrator
-    chown system system /sys/class/timed_output/vibrator/enable
-    chmod 0777 /sys/class/timed_output/vibrator/enable
-
     # RGB light
     chown system system /sys/class/leds/led:rgb_red/brightness
     chmod 0660 /sys/class/leds/led:rgb_red/brightness
